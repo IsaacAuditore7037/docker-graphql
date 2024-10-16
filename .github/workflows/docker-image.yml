@@ -36,7 +36,7 @@ jobs:
     - name: Push Docker Image
       run: |
         echo "Subir Imagen a DockerHub"
-        docker push isaacauditore/docker-graphql:0.0.2 .
+        docker push isaacauditore/docker-graphql:0.0.2
          
     
 #    - name: Build the Docker image
